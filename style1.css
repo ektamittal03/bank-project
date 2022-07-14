@@ -1,0 +1,56 @@
+
+  
+  body {
+    background-image: url("https://image.shutterstock.com/image-illustration/blue-room-3d-background-260nw-1699534918.jpg");
+    background-position: 50% 15%; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-color: aqua;
+   }
+   .logo{
+    width : 100px;
+    height : 100px;
+    border-radius: 50%;
+    position:relative;
+    left : 35%;
+    top: -10%
+
+   }
+   .container{
+    width : 300px;
+    height : 500px;
+    border-radius: 10%;
+    background-color: #CCE5FF;
+    position: relative;
+    left: 40%;
+    top : 170px;
+    }
+
+    h1{
+      padding-top: 0px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      text-align: center;
+      margin: 0;
+    }
+    form{
+      padding:  0px 30px;
+    }
+    .container input[type="text"],input[type="password"] {
+      border:none;
+      background: transparent;
+      border-bottom: 1px solid black;
+      outline : none;
+      width : 220px;
+    }
+    p{
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .container input[type="submit"]{
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+    a{
+      margin-top: 20px;
+    }
